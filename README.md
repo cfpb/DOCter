@@ -8,7 +8,9 @@ DOCter is a [Jekyll](http://jekyllrb.com/) template for quickling building out p
 
 Install Jekyll:
 
-`gem install jekyll`
+```
+gem install jekyll
+```
 
 Fork and clone the repo:
 
@@ -18,7 +20,9 @@ cd DOCter
 ```
 Run Jekyll:
 
-`jekyll serve --baseurl ''`
+```
+jekyll serve --baseurl ''
+```
 
 
 ## _config.yml
