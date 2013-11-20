@@ -2,6 +2,25 @@
 
 DOCter is a [Jekyll](http://jekyllrb.com/) template for quickling building out project pages and documentation.
 
+![DOCter Screenshot](https://github.com/ascott1/DOCter/tree/gh-pages/assets/img/screenshot.png)
+
+## To run DOCter locally
+
+Install Jekyll:
+
+`gem install jekyll`
+
+Fork and clone the repo:
+
+```
+git clone git@github.com:ascott1/DOCter.git
+cd DOCter
+```
+Run Jekyll:
+
+`jekyll serve --baseurl ''`
+
+
 ## _config.yml
 
 Options within the `_config.yml` file allow you to control the site's title, subtitle, logo, author information, and the left column navigation.
