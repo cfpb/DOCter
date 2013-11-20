@@ -23,7 +23,11 @@
 
       <div class="wrap content">
 
-        {{ content }}
+        {% include sidebar.html %}
+
+        <section class="main-content" role="main">
+          {{ content }}
+        </section>
 
 
         <footer>

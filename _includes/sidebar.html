@@ -1,0 +1,10 @@
+<aside>
+  <p class="intro">{{ site.subtitle }}</p>
+  <nav>
+    <ul>
+      {% for link in site.navigation %}
+        <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</aside>

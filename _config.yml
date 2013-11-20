@@ -21,4 +21,16 @@ author:
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: 
-logoalt: 
+logoalt:
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Example
+  url: index.html
+- text: Another Example 
+  url: index.html
+- text: Example 3
+  url: index.html
+- text: Yet Another Example
+  url: index.html
