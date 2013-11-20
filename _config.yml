@@ -27,10 +27,10 @@ logoalt:
 # List links that should appear in the site sidebar here
 navigation:
 - text: Example
-  url: index.html
+  url: example_page.html
 - text: Another Example 
-  url: index.html
+  url: example_page.html
 - text: Example 3
-  url: index.html
+  url: example_page.html
 - text: Yet Another Example
-  url: index.html
+  url: example_page.html
