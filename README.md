@@ -2,7 +2,7 @@
 
 DOCter is a [Jekyll](http://jekyllrb.com/) template for quickling building out project pages and documentation.
 
-![DOCter Screenshot](https://github.com/ascott1/DOCter/tree/gh-pages/assets/img/screenshot.png)
+![DOCter Screenshot](https://github.com/ascott1/DOCter/blob/gh-pages/assets/img/screenshot.png?raw=true)
 
 ## To run DOCter locally
 
