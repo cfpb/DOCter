@@ -1,4 +1,13 @@
-## Project Page URL Structure
+# DOCter
+
+DOCter is a [Jekyll](http://jekyllrb.com/) template for quickling building out project pages and documentation.
+
+## _config.yml
+
+Options within the `_config.yml` file allow you to control the site's title, subtitle, logo, author information, and the left column navigation.
+
+
+### Project Page URL Structure
 
 **This is an excerpt from the [Jekyll docs](http://jekyllrb.com/docs/github-pages/) on configuring your URL for Project Pages.**
 
@@ -10,3 +19,9 @@ Sometimes it's nice to preview your Jekyll site before you push your `gh-pages` 
 4. Finally, if you'd like to preview your site before committing/deploying using `jekyll serve`, be sure to pass an **empty string** to the `--baseurl` option, so that you can view everything at `localhost:4000` normally (without `/project-name` at the beginning): `jekyll serve --baseurl ''`
 
 This way you can preview your site locally from the site root on localhost, but when GitHub generates your pages from the gh-pages branch all the URLs will start with `/project-name` and resolve properly.
+
+## License
+
+The project is in the public domain, and all contributions to it will be released as such. By submitting a pull request, you are agreeing to waive all rights to your contribution under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
+
+If you contribute the open source work of others, please mark it clearly in your pull request.
