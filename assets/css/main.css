@@ -124,6 +124,18 @@ a:focus {
     text-decoration: none;
 }
 
+a.title-link {
+    color: #75787B;
+    border-bottom: none;
+}
+
+a.title-link:hover,
+a.title-link:active,
+a.title-link:focus {
+    color: #7eb8dd;
+    border-bottom: none;
+}
+
 /*
 Navigation
 ==================================
@@ -194,12 +206,6 @@ Style
 ==================================
 */
 
-.e {
-    font-family: "Avenir Next", Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal; 
-}
-
 .intro {
     color: #75787B;
 }
@@ -224,6 +230,31 @@ li h4 {
     font-family: "Avenir Next Demi", Arial, sans-serif;
     font-weight: normal;
     font-style: normal; 
+}
+
+.highlight {
+    max-width: 100%;
+    font-size: 0.875em;
+    overflow-y: scroll;
+    background-color: #E7E7E6;
+    padding: 0 10px;
+}
+
+/*
+Post list
+----------------------------------
+*/
+
+ul.posts {
+    padding: 0;
+}
+
+.posts li {
+    list-style: none;
+}
+
+.post-date {
+    color: #75787B;
 }
 
 /*
