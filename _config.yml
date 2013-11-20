@@ -11,4 +11,14 @@ subtitle: A Jekyll template for project documentation
 # When using this template with a project page set the baseurl to '/project-name'
 # For local development or user/organization pages set this to an empty string
 # See http://jekyllrb.com/docs/github-pages/ for more info
+#baseurl: ''
 baseurl: '/DOCter'
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: Name
+  url: http://localhost:4000
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: 
+logoalt: 
