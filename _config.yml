@@ -1,3 +1,13 @@
-name: Your New Jekyll Site
+# Base configuration
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: redcarpet
 pygments: true
+
+# Title
+name: DOCter
+subtitle: A Jekyll template for project documentation
+
+# Set this to the full URL
+production_url : http://ascott1.github.io/DOCter
+BASE_PATH : http://ascott1.github.io/DOCter
