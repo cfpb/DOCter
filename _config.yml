@@ -8,6 +8,7 @@ pygments: true
 name: DOCter
 subtitle: A Jekyll template for project documentation
 
-# Set this to the full URL
-production_url : http://ascott1.github.io/DOCter
-BASE_PATH : http://ascott1.github.io/DOCter
+# When using this template with a project page set the baseurl to 'projectName/'
+# For local development or user/organization pages set this to an empty string
+# See http://jekyllrb.com/docs/github-pages/ for more info
+baseurl: 'DOCter/'
