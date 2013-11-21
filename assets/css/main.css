@@ -14,7 +14,9 @@ Normalize the box model
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
  }
 
 /*
@@ -96,8 +98,9 @@ Links
 */
 
 a {
-    -webkit-transition: .2s; -moz-transition: .2s;
-    transition: .2s;
+    -webkit-transition: .2s;
+       -moz-transition: .2s;
+            transition: .2s;
 }
 
 a,
@@ -147,8 +150,9 @@ Navigation
  nav a {
     display: block;
     padding: .5em 0;
-    -webkit-transition: .4s; -moz-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .4s;
+       -moz-transition: .4s;
+            transition: .4s;
 }
 
 nav a,
