@@ -295,8 +295,8 @@ Clearfix list
 
 .group:before,
 .group:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    display: table;
 }
 
 .group:after {
