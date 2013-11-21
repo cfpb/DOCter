@@ -27,11 +27,12 @@ logoalt:
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Example
-  url: /example_page.html
-- text: Another Example 
-  url: /example_page.html
-- text: Example 3
-  url: /example_page.html
-- text: Yet Another Example
-  url: /example_page.html
+- text: Home
+  url: index.html
+  internal: true
+- text: Example Page
+  url: example_page.html
+  internal: true
+- text: DOCter Repo
+  url: https://github.com/ascott1/DOCter
+  internal: false
