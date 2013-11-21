@@ -436,10 +436,6 @@ Mobile Styles
 
 @media screen and (max-width: 40.5em) {
 
-    .list-icon {
-        display: none;
-    }
-
     .main-content {
         margin-top: 1.5em;
     }
