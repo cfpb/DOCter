@@ -2,8 +2,9 @@
 
 ## Team members
 
-* Adam Scott
 * Jennifer Ehlers
+* Mike Morici
+* Adam Scott
 
 ## Workflow
 
