@@ -1,7 +1,7 @@
 @import url('normalize.css');
 
 /*
-Style.css
+Main.css
 ==================================
 Begin with generic 'mobile first' styles
 */
@@ -10,10 +10,13 @@ Begin with generic 'mobile first' styles
 Normalize the box model
 ==================================
 */
+
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
  }
 
 /*
@@ -62,6 +65,7 @@ p,
 li {
     font-size: .9375em;
 }
+
 .page-title {
     margin-top: .727272727em; /* 16/22 */
 }
@@ -70,6 +74,7 @@ li {
 Lists
 --------------------------------
 */
+
 .main-content ul {
     padding-left: 1.1em;
 }
@@ -93,8 +98,9 @@ Links
 */
 
 a {
-    -webkit-transition: .2s; -moz-transition: .2s;
-    transition: .2s;
+    -webkit-transition: .2s;
+       -moz-transition: .2s;
+            transition: .2s;
 }
 
 a,
@@ -144,8 +150,9 @@ Navigation
  nav a {
     display: block;
     padding: .5em 0;
-    -webkit-transition: .4s; -moz-transition: .4s;
-    transition: .4s;
+    -webkit-transition: .4s;
+       -moz-transition: .4s;
+            transition: .4s;
 }
 
 nav a,
@@ -292,8 +299,8 @@ Clearfix list
 
 .group:before,
 .group:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    display: table;
 }
 
 .group:after {
@@ -308,6 +315,7 @@ Clearfix list
 Desktop Styles
 ==================================
 */
+
 @media screen and (min-width: 45em) and (min-height: 32.5em) {
 
     /*
@@ -425,11 +433,8 @@ Desktop Styles
 Mobile Styles
 ==================================
 */
-@media screen and (max-width: 40.5em) {
 
-    .list-icon {
-        display: none;
-    }
+@media screen and (max-width: 40.5em) {
 
     .main-content {
         margin-top: 1.5em;
