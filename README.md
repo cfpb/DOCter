@@ -6,10 +6,11 @@ DOCter is a [Jekyll](http://jekyllrb.com/) template for quickling building out p
 
 ## To run DOCter locally
 
-Install Jekyll:
+Be sure to have Jekyll and redcarpet installed.
 
 ```
 gem install jekyll
+gem install redcarpet
 ```
 
 Fork and clone the repo:
