@@ -1,5 +1,5 @@
 # Base configuration
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: redcarpet
 pygments: true
