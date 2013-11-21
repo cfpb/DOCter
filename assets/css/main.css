@@ -10,6 +10,7 @@ Begin with generic 'mobile first' styles
 Normalize the box model
 ==================================
 */
+
 *,
 *:before,
 *:after {
@@ -62,6 +63,7 @@ p,
 li {
     font-size: .9375em;
 }
+
 .page-title {
     margin-top: .727272727em; /* 16/22 */
 }
@@ -70,6 +72,7 @@ li {
 Lists
 --------------------------------
 */
+
 .main-content ul {
     padding-left: 1.1em;
 }
@@ -308,6 +311,7 @@ Clearfix list
 Desktop Styles
 ==================================
 */
+
 @media screen and (min-width: 45em) and (min-height: 32.5em) {
 
     /*
@@ -425,6 +429,7 @@ Desktop Styles
 Mobile Styles
 ==================================
 */
+
 @media screen and (max-width: 40.5em) {
 
     .list-icon {
