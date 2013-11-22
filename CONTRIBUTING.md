@@ -1,8 +1,9 @@
 # DOCter
 
-## Team members
+## Contributors
 
 * Jennifer Ehlers
+* David Kennedy
 * Mike Morici
 * Adam Scott
 
