@@ -2,16 +2,17 @@
 
 ## Contributors
 
-* Jennifer Ehlers
-* David Kennedy
-* Mike Morici
 * Adam Scott
+* David Kennedy
+* Jennifer Ehlers
+* Mike Morici
 
 ## Workflow
 
 1. Fork DOCter.
 2. Create a new feature or improve and existing one.
-3. Make a pull request.
+3. Add your name to the list of contributors
+4. Make a pull request.
 
 ## Public domain
 
