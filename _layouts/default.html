@@ -17,7 +17,9 @@
     <body>
       <header role="banner">
       <div class="wrap">
-        <img class="logo" src="{{site.logourl}}" alt="{{site.logoalt}}">
+        {% if site.logourl != null %}
+          <img class="logo" src="{{site.logourl}}" alt="{{site.logoalt}}">
+        {% endif %}
         <h1><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
       </div>
       </header>
