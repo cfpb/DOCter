@@ -41,7 +41,7 @@ author or the affirmer.
 [policy]: http://github.com/cfpb/source-code-policy/
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/legalcode
 
-**This project makes use of:**
+## This project makes use of:
 
 * Respond.js by Scott Jehl dual licensed under the MIT or GPL Version 2 licenses.
 * HTML5shiv licensed under the MIT license.
