@@ -43,5 +43,6 @@ author or the affirmer.
 
 ## This project makes use of:
 
-* Respond.js by Scott Jehl dual licensed under the MIT or GPL Version 2 licenses.
-* HTML5shiv licensed under the MIT license.
+* [Respond.js](https://github.com/scottjehl/Respond) by Scott Jehl, licensed under the MIT license.
+* [The HTML5 Shiv](https://github.com/aFarkas/html5shiv), dual licensed under the MIT or GPL Version 2 licenses.
+* 
