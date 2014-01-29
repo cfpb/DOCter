@@ -1,6 +1,6 @@
 # DOCter
 
-DOCter is a [Jekyll](http://jekyllrb.com/) template for quickling building out project pages and documentation.
+DOCter is a [Jekyll](http://jekyllrb.com/) template for quickly building out project pages and documentation.
 
 ![DOCter Screenshot](https://github.com/ascott1/DOCter/blob/gh-pages/assets/img/screenshot.png?raw=true)
 
@@ -42,7 +42,7 @@ Sometimes it's nice to preview your Jekyll site before you push your `gh-pages` 
 3. When doing permalinks or internal links, do it like this: `{{ site.baseurl }}{{ post.url }}` -- note that there is **no** slash between the two variables.
 4. Finally, if you'd like to preview your site before committing/deploying using `jekyll serve`, be sure to pass an **empty string** to the `--baseurl` option, so that you can view everything at `localhost:4000` normally (without `/project-name` at the beginning): `jekyll serve --baseurl ''`
 
-This way you can preview your site locally from the site root on localhost, but when GitHub generates your pages from the gh-pages branch all the URLs will start with `/project-name` and resolve properly.
+This way, you can preview your site locally from the site root on localhost, but when GitHub generates your pages from the gh-pages branch all the URLs will start with `/project-name` and resolve properly.
 
 ## License
 
