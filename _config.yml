@@ -34,5 +34,5 @@ navigation:
   url: example_page.html
   internal: true
 - text: DOCter Repo
-  url: https://github.com/ascott1/DOCter
+  url: https://github.com/cfpb/DOCter
   internal: false
