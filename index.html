@@ -6,11 +6,30 @@ title: DOCter
 {% capture index %}{% include index.md %}{% endcapture %}
 {{ index | markdownify }}
 
+<section id="repositories">
+    <h2>Repositories</h2>
+    <ul class="repo-list group">
+        <li class="list-icon">
+            <!-- <div class="image-wrap"> --><img src="static/img/octocat.png" width="25px" alt=""><!-- </div> -->
+        </li>
+        <li>
+            <a href="https://github.com/cfpb/DOCter">
+                <h4>DOCter</h4> 
+                <p>A Jekyll theme for documentation sites.</p>
+            </a>
+        </li>
+        <!-- Copy the `li` above to add more repos to the group -->
+    </ul>
+</section>
+
 <div id="home">
-  <h2>Posts</h2>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="post-date">{{ post.date | date_to_string }}</span></li>
-    {% endfor %}
-  </ul>
+    <h2>Posts</h2>
+    <ul class="posts">
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+            </li>
+        {% endfor %}
+    </ul>
 </div>
