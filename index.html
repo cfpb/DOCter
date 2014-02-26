@@ -6,21 +6,24 @@ title: DOCter
 {% capture index %}{% include index.md %}{% endcapture %}
 {{ index | markdownify }}
 
+{% if site.repos %}
 <section id="repositories">
     <h2>Repositories</h2>
     <ul class="repo-list group">
         <li class="list-icon">
-            <!-- <div class="image-wrap"> --><img src="static/img/octocat.png" width="25px" alt=""><!-- </div> -->
+            <img src="assets/img/octocat.png" width="25px" alt="">
         </li>
+        {% for repo in site.repos %}
         <li>
-            <a href="https://github.com/cfpb/DOCter">
-                <h4>DOCter</h4> 
-                <p>A Jekyll theme for documentation sites.</p>
+            <a href="{{ repo.url }}">
+                <h4>{{ repo.name }}</h4>
+                <p>{{ repo.description }}</p>
             </a>
         </li>
-        <!-- Copy the `li` above to add more repos to the group -->
+        {% endfor %}
     </ul>
 </section>
+{% endif %}
 
 <div id="home">
     <h2>Posts</h2>

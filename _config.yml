@@ -36,3 +36,11 @@ navigation:
 - text: DOCter Repo
   url: https://github.com/cfpb/DOCter
   internal: false
+
+# Repo list
+# List repos that you would like to appear on the homepage here
+repos:
+- name: DOCter
+  description: Jekyll template for docs
+  url: https://github.com/ascott1/DOCter
+>>>>>>> Set up dynamically-generated repo list
