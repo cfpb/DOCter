@@ -42,5 +42,4 @@ navigation:
 repos:
 - name: DOCter
   description: Jekyll template for docs
-  url: https://github.com/ascott1/DOCter
->>>>>>> Set up dynamically-generated repo list
+  url: https://github.com/cfpb/DOCter
