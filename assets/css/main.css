@@ -160,7 +160,7 @@ Navigation
 ==================================
 */
 
- nav a {
+nav a {
     display: block;
     padding: .5em 0;
     -webkit-transition: .4s;
@@ -207,8 +207,7 @@ section:before {
 
 header {
     width: 100%;
-    border-top: 4px solid #2CB34A;
-    border-bottom: 1px solid #BABBBD;
+    border-bottom: 4px solid #2CB34A;
     background-color: #fff;
     position: fixed;
     top: 0;
