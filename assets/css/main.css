@@ -21,6 +21,15 @@ Normalize the box model
  }
 
 /*
+global styles
+==================================
+*/
+
+html, body {
+    height: 100%;
+}
+
+/*
 Typography
 ==================================
 */
@@ -235,6 +244,33 @@ header {
 
 
 /*
+Footer
+==================================
+*/
+
+/* for sticky footer */
+.container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    display: table-row; /* for sticky footer */
+    height: 1px; /* for sticky footer */
+    border-top: 2px solid #babbbd;
+    background: #f1f2f2;
+    width: 100%;
+    font-size: 0.875em;
+}
+
+footer .wrap {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+/*
 Helpers
 ==================================
 */
@@ -281,11 +317,6 @@ Style
 */
 
 .intro {
-    color: #75787B;
-}
-
-footer {
-    font-size: 0.75em;
     color: #75787B;
 }
 
@@ -397,12 +428,6 @@ Desktop Styles
     aside {
         width: 30%;
         float: left;
-    }
-
-    footer {
-        position: fixed;
-        width: 235px;
-        bottom: 20px;
     }
 
     .main-content {

@@ -15,30 +15,33 @@
 
   </head>
   <body>
-    <header role="banner">
-      <div class="wrap">
-        {% if site.logourl != null %}
-          <img class="logo" src="{{ site.logourl }}" alt="{{ site.logoalt }}">
-        {% endif %}
-        <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-      </div>
-    </header>
+    <div class="container">
+      <header role="banner">
+        <div class="wrap">
+          {% if site.logourl != null %}
+            <img class="logo" src="{{ site.logourl }}" alt="{{ site.logoalt }}">
+          {% endif %}
+          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+        </div>
+      </header>
 
-    <div class="wrap content">
+      <div class="wrap content">
 
-      {% include sidebar.html %}
+        {% include sidebar.html %}
 
-      <section id="main" class="main-content" role="main">
-        {{ content }}
-      </section>
+        <section id="main" class="main-content" role="main">
+          {{ content }}
+        </section>
 
+      </div><!-- /.wrap content -->
 
       <footer role="contentinfo">
-        <p>This project is maintained by <a href="{{ site.author.url }}">{{ site.author.name }}</a>.</p>
+        <div class="wrap">
+          <p>This project is maintained by <a href="{{ site.author.url }}">{{ site.author.name }}</a>.</p>
 
-        <p>Hosted on <a href="http://pages.github.com/">GitHub Pages</a>.</p>
+          <p>Hosted on <a href="http://pages.github.com/">GitHub Pages</a>.</p>
+        </div><!--/.wrap -->
       </footer>
-
-    </div><!-- /.wrap -->
-  </body>
+    </div> <!-- /.container -->
+    </body>
 </html>
