@@ -330,12 +330,12 @@ li h4 {
     font-style: normal;
 }
 
-.highlight {
+pre {
     max-width: 100%;
     font-size: 0.875em;
     overflow-y: scroll;
-    background-color: #E7E7E6;
-    padding: 0 10px;
+    background-color: #f1f2f2;
+    padding: 10px;
 }
 
 /*
