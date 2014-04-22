@@ -202,6 +202,10 @@ Layout
 ==================================
 */
 
+.logo {
+    display: block;
+}
+
 .content {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -278,13 +282,6 @@ Style
 
 .intro {
     color: #75787B;
-}
-
-.logo {
-    width: 150px;
-    margin-top: .75em; /*this is a pretty hacky job of vertically centering the logo */
-    padding-right: 20px;
-    float: right;
 }
 
 footer {
@@ -392,6 +389,8 @@ Desktop Styles
     */
 
     .logo {
+        max-width: 30%;
+        padding-right: 20px;
         float: right;
     }
 
