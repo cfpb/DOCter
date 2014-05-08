@@ -1,7 +1,7 @@
 # Base configuration
 permalink: /:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 
 # Title
