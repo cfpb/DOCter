@@ -6,11 +6,11 @@ DOCter is a [Jekyll](http://jekyllrb.com/) template for quickly building out pro
 
 ## To run DOCter locally
 
-Be sure to have Jekyll and redcarpet installed.
+Be sure to have Jekyll and Kramdown installed.
 
 ```
 gem install jekyll
-gem install redcarpet
+gem install kramdown
 ```
 
 Fork and clone the repo:
