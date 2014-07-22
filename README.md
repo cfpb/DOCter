@@ -4,6 +4,8 @@ DOCter is a [Jekyll](http://jekyllrb.com/) template for quickly building out pro
 
 ![DOCter Screenshot](https://github.com/ascott1/DOCter/blob/gh-pages/assets/img/screenshot.png?raw=true)
 
+[See the demo](http://cfpb.github.io/DOCter/)
+
 ## To run DOCter locally
 
 Be sure to have Jekyll and Kramdown installed.
