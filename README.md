@@ -18,7 +18,7 @@ gem install kramdown
 Fork and clone the repo:
 
 ```
-git clone git@github.com:ascott1/DOCter.git
+git clone git@github.com:cfpb/DOCter.git
 cd DOCter
 ```
 Run Jekyll:
