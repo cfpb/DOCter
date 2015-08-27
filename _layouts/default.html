@@ -3,7 +3,13 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>
+      {% if page.title == null %}
+        {{ site.name }}
+      {% else %}
+        {{ page.title }} - {{ site.name }}
+      {% endif %}
+    </title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
