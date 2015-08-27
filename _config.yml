@@ -2,7 +2,7 @@
 permalink: /:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: kramdown
-pygments: true
+highlighter: pygments
 
 # Title
 name: DOCter
