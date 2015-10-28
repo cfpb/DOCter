@@ -8,12 +8,11 @@ DOCter is a [Jekyll](http://jekyllrb.com/) template for quickly building out pro
 
 ## To run DOCter locally
 
-Be sure to have Jekyll, Kramdown, and Pygments.rb installed.
+DOCter needs Jekyll, Kramdown, and Pygments.rb to run locally. These can be installed with Bundler by running the following commands.
 
 ```
-gem install jekyll
-gem install kramdown
-gem install pygments.rb
+gem install bundler
+bundle install
 ```
 
 Fork and clone the repo:
