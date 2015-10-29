@@ -1,8 +1,12 @@
 # Base configuration
-permalink: /:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: kramdown
 highlighter: pygments
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 # Title
 name: DOCter
@@ -28,10 +32,10 @@ logoalt:
 # List links that should appear in the site sidebar here
 navigation:
 - text: Home
-  url: index.html
+  url: ./
   internal: true
 - text: Example Page
-  url: example_page.html
+  url: example_page
   internal: true
 - text: DOCter Repo
   url: https://github.com/cfpb/DOCter
