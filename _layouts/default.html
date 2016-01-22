@@ -49,12 +49,14 @@
         </div><!--/.wrap -->
       </footer>
     </div> <!-- /.container -->
-    <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker
-         .register('/sw.js')
-         .then(function() { console.log('Service Worker Registered'); });
-       }
-    </script>
+    {% if site.offline_cache == true %}
+      <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker
+           .register('/sw.js')
+           .then(function() { console.log('Service Worker Registered'); });
+         }
+      </script>
+    {% endif %}
     </body>
 </html>

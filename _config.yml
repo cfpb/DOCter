@@ -50,3 +50,7 @@ repos:
 
 # Style Variables
 brand_color: "#2cb34a"
+
+# Offline caching
+offline_cache: true
+cache_name: DOCter-v1
