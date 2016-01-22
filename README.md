@@ -60,7 +60,7 @@ in `_config.yml`: set `offline_cache` to false (defaults to true).
 
 in `_config.yml` change the value of `cache_name`
 
-**To add additional pages or files to the cache:**
+**To add additional files to the cache:**
 
 Update the `filesToCache` array in `sw.js`;
 

@@ -15,7 +15,7 @@ var filesToCache = [
   // images
   '{{ site.baseurl }}/assets/img/octocat.png',
   // pages
-  '{{ site.baseurl }}/example_page/',
+  {% for page in site.documents %}'{{ site.baseurl }}{{ page.url }}',{% endfor %}
   // posts
   {% for post in site.posts %}'{{ site.baseurl }}{{ post.url }}',{% endfor %}
 ];
