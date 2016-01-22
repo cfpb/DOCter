@@ -2,7 +2,7 @@
 layout: null
 ---
 
-importScripts('/cache-polyfill.js');
+importScripts( '/cache-polyfill.js' );
 
 var filesToCache = [
   // root
@@ -20,19 +20,19 @@ var filesToCache = [
   {% for post in site.posts %}'{{ post.url }}',{% endfor %}
 ];
 
-self.addEventListener('install', function(e) {
+self.addEventListener( 'install', function( e ) {
   e.waitUntil(
-    caches.open('{{ site.cache_name }}').then(function(cache) {
-      return cache.addAll(filesToCache);
+    caches.open( '{{ site.cache_name }}' )
+      .then( function( cache ) {
+        return cache.addAll( filesToCache );
     })
   );
 });
 
-self.addEventListener('fetch', function(event) {
-  console.log(event.request.url);
+self.addEventListener( 'fetch', function( event ) {
   event.respondWith(
-    caches.match(event.request).then(function(response) {
-      return response || fetch(event.request);
+    caches.match( event.request ).then( function( response ) {
+      return response || fetch( event.request );
     })
  );
 });
