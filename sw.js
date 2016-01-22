@@ -2,11 +2,11 @@
 layout: null
 ---
 
-importScripts( '/cache-polyfill.js' );
+importScripts( '{{ site.baseurl }}cache-polyfill.js' );
 
 var filesToCache = [
   // root
-  '{{ site.baseurl }}/',
+  '{{ site.baseurl }}',
   '{{ site.baseurl }}/index.html',
   // css
   '{{ site.baseurl }}/assets/css/main.css',
