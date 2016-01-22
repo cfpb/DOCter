@@ -51,10 +51,12 @@
     </div> <!-- /.container -->
     {% if site.offline_cache == true %}
       <script>
-        if('serviceWorker' in navigator) {
+        if( 'serviceWorker' in navigator ) {
           navigator.serviceWorker
-           .register('{{ site.baseurl }}/sw.js')
-           .catch(function() {});
+           .register( '{{ site.baseurl }}/sw.js' )
+           .catch(function( err ) {
+             console.log( 'ServiceWorker registration failed: ', err );
+           });
          }
       </script>
     {% endif %}
