@@ -6,18 +6,18 @@ importScripts( '/cache-polyfill.js' );
 
 var filesToCache = [
   // root
-  '/',
-  '/index.html',
+  '{{ site.baseurl }}/',
+  '{{ site.baseurl }}/index.html',
   // css
-  '/assets/css/main.css',
-  '/assets/css/normalize.css',
-  '/assets/css/syntax.css',
+  '{{ site.baseurl }}/assets/css/main.css',
+  '{{ site.baseurl }}/assets/css/normalize.css',
+  '{{ site.baseurl }}/assets/css/syntax.css',
   // images
-  '/assets/img/octocat.png',
+  '{{ site.baseurl }}/assets/img/octocat.png',
   // pages
-  '/example_page/',
+  '{{ site.baseurl }}/example_page/',
   // posts
-  {% for post in site.posts %}'{{ post.url }}',{% endfor %}
+  {% for post in site.posts %}'{{ site.baseurl }}{{ post.url }}',{% endfor %}
 ];
 
 self.addEventListener( 'install', function( e ) {
