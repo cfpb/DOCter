@@ -35,7 +35,7 @@ navigation:
   url: ./
   internal: true
 - text: Example Page
-  url: example_page
+  url: example_page/
   internal: true
 - text: DOCter Repo
   url: https://github.com/cfpb/DOCter
@@ -50,3 +50,7 @@ repos:
 
 # Style Variables
 brand_color: "#2cb34a"
+
+# Offline caching
+offline_cache: true
+cache_name: DOCter-v1.1

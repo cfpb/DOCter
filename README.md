@@ -30,7 +30,7 @@ bundle exec jekyll serve --watch --baseurl ''
 Open it up in your browser: <http://localhost:4000/>
 
 
-## _config.yml
+## `_config.yml`
 
 Options within the `_config.yml` file allow you to control the site's title, subtitle, logo, author information, and the left column navigation.
 
@@ -47,6 +47,24 @@ Sometimes it's nice to preview your Jekyll site before you push your `gh-pages` 
 4. Finally, if you'd like to preview your site before committing/deploying using `jekyll serve`, be sure to pass an **empty string** to the `--baseurl` option, so that you can view everything at `localhost:4000` normally (without `/project-name` at the beginning): `jekyll serve --baseurl ''`
 
 This way, you can preview your site locally from the site root on localhost, but when GitHub generates your pages from the gh-pages branch all the URLs will start with `/project-name` and resolve properly.
+
+## Offline support
+
+By default DOCter provides offline support via a [Service Worker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/). This means that after an initial load of your DOCter site, a cached version will be available offline in some modern browsers.
+
+**To disable offline caching:**
+
+in `_config.yml`: set `offline_cache` to false (defaults to true).
+
+**To update the cached version of your site:**
+
+in `_config.yml` change the value of `cache_name`
+
+**To add additional files to the cache:**
+
+Update the `filesToCache` array in `sw.js`;
+
+
 
 ## License
 
