@@ -1,7 +1,7 @@
 # Base configuration
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 collections:
   pages:
