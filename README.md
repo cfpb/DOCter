@@ -48,22 +48,22 @@ Sometimes it's nice to preview your Jekyll site before you push your `gh-pages` 
 
 This way, you can preview your site locally from the site root on localhost, but when GitHub generates your pages from the gh-pages branch all the URLs will start with `/project-name` and resolve properly.
 
+
 ## Offline support
 
-By default DOCter provides offline support via a [Service Worker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/). This means that after an initial load of your DOCter site, a cached version will be available offline in some modern browsers.
+DOCter provides optional offline support via a [Service Worker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/). This means that, when enabled, after an initial load of your DOCter site, a cached version will be available offline in some modern browsers.
 
-**To disable offline caching:**
+**To enable offline caching:**
 
-in `_config.yml`: set `offline_cache` to false (defaults to true).
+in `_config.yml`: set `offline_cache` to `true` (defaults to `false`)
 
 **To update the cached version of your site:**
 
-in `_config.yml` change the value of `cache_name`
+in `_config.yml`: change the value of `cache_name` (this should be done with every significant update to the site)
 
 **To add additional files to the cache:**
 
-Update the `filesToCache` array in `sw.js`;
-
+in `sw.js`: update the `filesToCache` array
 
 
 ## License
